@@ -1,7 +1,7 @@
 import { useState } from "react"
 import axios from "axios"
 
-const API = "http://127.0.0.1:8000"
+const API = "https://smart-home-energy-rnim.onrender.com"
 
 const Field = ({ label, unit, value, onChange, min, max, step = 1 }) => (
   <div style={{ marginBottom: 20 }}>
