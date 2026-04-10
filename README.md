@@ -2,8 +2,8 @@
 
 ML-powered energy prediction for home appliances using React + FastAPI + Scikit-learn.
 
-🔴 Live Demo: https://smart-home-energy.vercel.app
-🔗 API Docs: https://smart-home-energy-rnim.onrender.com/docs
+🔴 Live Demo: https://smart-home-energy-8b8to0e8r-golla-gopals-projects.vercel.app/
+🔗 API Docs: https://smart-home-energy-rnim.onrender.com/
 
 ## Features
 - Predicts energy consumption for Washing Machine & Refrigerator
