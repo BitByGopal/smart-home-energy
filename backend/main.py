@@ -78,7 +78,7 @@ def predict_washer(data: WasherInput):
         "load_kg":           data.load_kg,
         "temp_celsius":      data.temp_celsius,
         "spin_rpm":          data.spin_rpm,
-        "wash_duration_min": data.wash_duration_min
+        "wash_duration_min": data.wash_duration_min 
     }])
     energy_kwh = round(float(washer_reg.predict(features)[0]), 3)
     label_id   = int(washer_cls.predict(features)[0])
