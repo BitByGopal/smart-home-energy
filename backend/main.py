@@ -45,7 +45,7 @@ def washer_tips(data: WasherInput, label: int):
     if data.spin_rpm >= 1400:
         tips.append("🔄 Lower spin speed to 1000–1200 RPM for most fabrics.")
     if data.wash_duration_min > 90:
-        tips.append("⏱ Use a shorter eco cycle for lightly soiled clothes.")
+        tips.append("⏱ Use a shorter eco cycle for lightly soiled clothes.")  
     if label == 2:
         tips.append("⚡ Your settings are wasteful — try eco mode.")
     if not tips:
