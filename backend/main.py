@@ -25,7 +25,7 @@ metadata   = joblib.load(f"{BASE}/metadata.pkl")
 LABELS = metadata["labels"]
 
 class WasherInput(BaseModel):
-    load_kg:           float = Field(..., ge=0.5, le=10.0)
+    load_kg:           float = Field(..., ge=0.5, le=10.0) 
     temp_celsius:      float = Field(..., ge=20,  le=95)
     spin_rpm:          float = Field(..., ge=600, le=1600)
     wash_duration_min: float = Field(..., ge=15,  le=150)
