@@ -57,7 +57,7 @@ def fridge_tips(data: FridgeInput, label: int):
     if data.door_opens_per_day > 20:
         tips.append("🚪 Reduce door openings — plan before you open.")
     if data.ambient_temp_c > 30:
-        tips.append("🌡 Keep fridge away from heat sources like ovens.")
+        tips.append("🌡 Keep fridge away from heat sources like ovens.") 
     if data.fridge_temp_set_c < 3:
         tips.append("❄️ Set fridge to 3–5°C — colder than needed wastes energy.")
     if data.age_years > 10:
